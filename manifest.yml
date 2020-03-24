@@ -1,0 +1,5 @@
+---
+applications:
+- name: covid-data
+  memory: 512M
+  buildpacks: [nodejs_buildpack]

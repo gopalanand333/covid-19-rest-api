@@ -4,7 +4,8 @@
   "description": "covid-19 data, rest api, corona data, corona realtime data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/gopalanand333/covid-19-rest-api/issues"
   },
-  "homepage": "https://github.com/gopalanand333/covid-19-rest-api#readme"
+  "homepage": "https://github.com/gopalanand333/covid-19-rest-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "helmet": "^3.21.3",
+    "nodemon": "^2.0.2",
+    "novelcovid": "^1.0.7-b3"
+  }
 }
