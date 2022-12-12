@@ -31,7 +31,7 @@
   "homepage": "https://github.com/gopalanand333/covid-19-rest-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-sanitizer": "^1.0.5",
     "helmet": "^3.21.3",
     "node-fetch": "^2.6.1",
